@@ -17,6 +17,7 @@ def fetch_book_title(keyword):
     params = {
         'TTBKey': MY_TTBKEY,  # API 키 정보
         'Query': keyword,  # 검색할 키워드 정보
+        'SearchTarget': 'Book',  # 검색 대상 (Book: 도서)
         'Output': 'js',  # 응답 형식 (JSON)
         'Version': '20131101',  # API 버전
     }

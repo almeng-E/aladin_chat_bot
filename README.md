@@ -36,4 +36,16 @@
 - json 파일의 쓰기는 str 작성하는 문법과 다름
 
 
-
+# b03
+### 배운 점 : 
+- enumerate(iterable , start) 형식의 문법사항... start를 지정할 수 있구나
+- 여러 층으로 걸쳐 호출하여 따라가야 할 때에는 한 층 한 층 따라가면 이해하기 쉽다
+- 에러 디버깅하기 : 천천히 line by line 따라가서 읽다보면 호출 순서와 오류의 위치를 찾을 수 있음
+```  File "c:\Users\82104\OneDrive\바탕 화면\SSAFY\관통프로젝트\01-pjt\b03.py", line 74, in process_korean_literature_books
+    saved_data = save_books_to_json(raw_data, 'output/korean_literature_books.json')
+  File "c:\Users\82104\OneDrive\바탕 화면\SSAFY\관통프로젝트\01-pjt\b03.py", line 51, in save_books_to_json
+    with file_path.open('w', encoding='utf-8') as file:
+  File "C:\Python310\lib\pathlib.py", line 1117, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'output\\output\\korean_literature_books.json' 
+```

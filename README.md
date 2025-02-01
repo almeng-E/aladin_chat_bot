@@ -59,5 +59,11 @@ FileNotFoundError: [Errno 2] No such file or directory: 'output\\output\\korean_
 
 
 
+# c02
+### 배운 점 :
+- openai api의 호출 형식과 순서
+- role들 : system, user
+- json 형태로 출력 요청한 후 parsing 하는 과정
+- markdown 형식으로 출력해줘서 ```json ``` 을 제거하는 데에 시간이 걸림 ... 특정 형식으로 반환해달라고 하면 이렇게 코드라고 표시해준다는 것을 알고 있기
 
 

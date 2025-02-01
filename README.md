@@ -49,3 +49,15 @@
     return self._accessor.open(self, mode, buffering, encoding, errors,
 FileNotFoundError: [Errno 2] No such file or directory: 'output\\output\\korean_literature_books.json' 
 ```
+
+
+
+# c01
+### 배운 점 : 
+- api는 한번의 호출 당 출력 개수가 제한될 수 있구나,,, 나는 for 문을 통해 두번 호출하는 식으로 해결했는데 더 나은 방법은 없나?
+- api에서 제공되지 않는 sort를 구현하려면 일단 받아와서 내가 정리해야하는구나. sorting 알고리즘이 중요한 이유를 알겠다. 100개였으니 list의 .sort() 메서드로 했지 엄청나게 큰 데이터였으면 느렸을 수도 있겠다...
+
+
+
+
+

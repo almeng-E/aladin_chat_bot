@@ -79,7 +79,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'output\\output\\korean_
 
 # 도전과제 : 챗봇 만들기
 ## 플로우차트
-![플로우 차트](/asset/flowchart.png)
+![플로우 차트](/asset/chatbot_flowchart.png)
 
 ### 배웠던, 실습했던 내용만으로 챗봇을 만들 수 있었다 ! 
 

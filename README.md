@@ -72,3 +72,31 @@ FileNotFoundError: [Errno 2] No such file or directory: 'output\\output\\korean_
 - path는 매번 설정해줘야하나?
 - 언제 경로를 지정해주고 언제 안하는거지?
 - save_books_info() 에서 book의 정보를 추출하여 문자열로 만들 때, 어떤 방식이 가장 효율적일까 ??
+
+
+
+-------
+
+# 도전과제 : 챗봇 만들기
+## 플로우차트
+![플로우 차트](/asset/flowchart.png)
+
+### 배웠던, 실습했던 내용만으로 챗봇을 만들 수 있었다 ! 
+
+
+### 추가 끄적임
+- 아 프레임워크 없이 openai 써보니까 왜 langchain framework를 쓰는지 알겠다.
+매번 객체 생성하기도 힘들고
+매번 프롬프트 교체하고 하는것도 귀찮다...
+LEDC 그립다
+  - 가능하다면, langchain 시스템으로 교체하자 나중에...
+
+- DeepSeek R1 모델로 교체하면 분류-요약-포매팅 한번에 될것같기도...?
+o1도 되지만 너무 비싼 관계로...
+
+
+
+
+
+
+

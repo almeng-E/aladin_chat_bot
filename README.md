@@ -67,3 +67,8 @@ FileNotFoundError: [Errno 2] No such file or directory: 'output\\output\\korean_
 - markdown 형식으로 출력해줘서 ```json ``` 을 제거하는 데에 시간이 걸림 ... 특정 형식으로 반환해달라고 하면 이렇게 코드라고 표시해준다는 것을 알고 있기
 
 
+# c03
+### 궁금한 점 : 
+- path는 매번 설정해줘야하나?
+- 언제 경로를 지정해주고 언제 안하는거지?
+- save_books_info() 에서 book의 정보를 추출하여 문자열로 만들 때, 어떤 방식이 가장 효율적일까 ??
